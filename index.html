@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Portfólio</title>
+</head>
+<body>
+     <!---Cabeçalho-Main-->
+
+     <div id="Início" class="background">
+        <nav>
+            <h2 class="logo">Portfó<span>lio</span></h2><!--Logo-->
+            <ul class="cabeçalho-link">
+                <li><a href="#Início">Inicio</a></li>
+                <li><a href="#Sobre">Sobre mim</a></li>
+                <li><a href="#Projetos">Projetos</a></li>
+                <li><a href="#Contatos">Contatos</a></li>
+            </ul><!--cabeçalho-link-->
+
+            <div class="btn">
+            <a href="https://www.linkedin.com/in/karina-tavares-07417a11b/">Conecte-se</a>
+            </div>
+        </nav>
+
+        <div class="Main">
+            <h2>Olá, eu sou a </h2> 
+            <h3>Karina Tavares</h3>
+            <br>
+            <br>
+            <h5>Desenvolvedora Front-end</h5> 
+            <div class="Container-btn">
+                <br><br>
+                <form>
+                    <input type="email" nome="email" id="mail" placeholder="Envie seu Email">
+                    <input type="submit" name="submit" value="Começar">
+                </form>
+            </div><!--Container-btn-->
+        </div><!--Main-->
+    </div><!--background-->
+
+
+    <!--Começo-da-seção-sobre-->
+    <section id="Sobre" class="background-color-Sobre">
+        <div class="main-sobre">
+            <div class="Text-sobre">
+                <h2>Sobre Mim</h2>
+                <p>
+                    Do Rio de Janeiro e com 25 anos sou Graduanda em Gestão da Tecnologia da Informação pela IBMR. Finalizei o curso de Formação Full Stack porém me identifiquei 100% com Front-end. Sou apaixonada por projetos open source pois
+                    acredito que compartilhar idéias nos auxilía a crescer cada vez mais. 
+                    Amo tecnologia, sempre fui aquela referência quando alguém precisava de algo na internet e hoje me 
+                    dedico pra desenvolver.</p>
+                <div class="download">
+                <a href="CurrículoKarinaTavarespng.png" download>Download cv</a>
+                </div>
+
+                <div class="skills">
+                    <h6 class="skills__tittle">Skills</h6>
+                    <ul class="skills__container">
+          
+                     <li class="skills__icon">
+                        <i class="fab fa-html5"></i>
+                        <span>HTML</span>
+                        </li>
+          
+                     <li class="skills__icon">
+                        <i class="fab fa-css3-alt"></i>
+                        <span>CSS</span>
+                        </li>
+          
+                     <li class="skills__icon">
+                        <i class="fab fa-js"></i>
+                        <span>JAVASCRIPT</span>
+                        </li>
+          
+                     <li class="skills__icon">
+                        <i class="fab fa-github"></i>
+                        <span>GITHUB</span>
+                        </li>
+                     
+                      <li class="skills__icon">
+                        <i class="fab fa-react"></i>
+                        <span>REACT.JS</span>
+                      </li>
+          
+                      <li class="skills__icon">
+                        <i class="fa-brands fa-sass"></i>
+                        <span>SASS</span>
+                      </li>
+                    </ul>
+                  </div>
+                </section>
+
+            </div>
+        </div>
+    </section>
+
+    <!--Começo-da-seção-nossos-serviços-->
+    <div  id="Projetos" class="Container-projetos">
+        <div class="title">
+            <h2>Projetos</h2>
+        </div><!--title-->
+
+        <div class="Caixa">
+            <div class="Card">
+                <a href="https://github.com/Karinatavaress/projetonetflix"><img src="image/projeto1.png" ></a>
+            </div><!--Card-->
+
+            <div class="Card">
+                <a href="https://github.com/Karinatavaress/projetorelogiodigital"><img src="image/projeto2.png" ></a>
+            </div><!--Card-->
+
+            <div class="Card">
+                <a href="https://github.com/Karinatavaress/barbershop"><img src="image/projeto3.png" ></a>
+            </div><!--Card-->
+        </div><!--Caixa-->
+    </div><!--Conatiner-serviços-->
+
+    <!--Rodapé--->
+    <footer>
+          <h6>Contato</h6>
+        <div id="Contatos" class="Redes-sociais">
+            <a href="https://mailto:karinasousatavares01@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+            <a href="https://www.linkedin.com/in/karina-tavares-07417a11b/"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://github.com/Karinatavaress/karinatavaress"><i class="fa-brands fa-github"></i></a>
+        </div><!--Redes-sociais-->
+        <p class="end">Desenvolvido por Karina Tavares</p>
+    </footer>
+    <script src="https://kit.fontawesome.com/bcdf3a4d9a.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+   <script>VanillaTilt.init(document.querySelectorAll(".Card"));</script>
+   <script src="script.js"></script>
+</body>
+</html>
