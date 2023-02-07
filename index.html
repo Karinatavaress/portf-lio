@@ -33,12 +33,28 @@
             <h5>Desenvolvedora Front-end</h5> 
             <div class="Container-btn">
                 <br><br>
-                <form>
+                <form action="./php/enviar-email.php" method="POST">
                     <input type="email" nome="email" id="mail" placeholder="Envie seu Email">
-                    <input type="submit" name="submit" value="Começar">
+                    <input id="botao" type="submit" name="submit" value="Começar">
                 </form>
             </div><!--Container-btn-->
         </div><!--Main-->
+        
+        <aside>
+            <div class="icon-menu" onclick="abrirmenu()">
+                <div class="menu"><i class="fa-solid fa-bars"></i></div>
+            </div>
+
+            <div id="barra-menu">
+                 <ul>
+                    <li><a href="#Início">Inicio</a></li>
+                    <li><a href="#Sobre">Sobre mim</a></li>
+                    <li><a href="#Projetos">Projetos</a></li>
+                    <li><a href="#Contatos">Contatos</a></li>
+                 </ul>
+            </div>
+        </aside>
+
     </div><!--background-->
 
 

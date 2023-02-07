@@ -116,7 +116,7 @@
   
   h5 {
     color: var(--color-second);
-    font-size: 25px;
+    font-size: 25rem;
     margin: 50px;
     position: absolute;
     right: 10%;
@@ -164,6 +164,49 @@
      border-radius: 20%;
      width: 430px;
      height: auto;
+  }
+
+
+  aside{
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    overflow: hidden;
+  }
+
+  .icon-menu .menu{
+    font-size: 30px;
+    color: var(--color-second);
+    margin-top: 15px;
+    margin-right: 15px;
+    display: none;
+  }
+
+  #barra-menu{
+    background-color: #232323;
+    height: 100%;
+    width: 180px;
+    transition: 0.03s all;
+  }
+
+  #barra-menu ul li {
+    list-style: none;
+    padding: 15px;
+  }
+  
+  #barra-menu ul li a{
+    color: var(--color-second);
+    text-decoration: none;
+    font-size: 15px;
+    width: 100%;
+  }
+
+  #barra-menu ul li a:hover{
+    border: solid 1px #828282;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #9e9999;
   }
   
   .Text-sobre {
@@ -418,4 +461,145 @@ h5 {
     color: var(--color-primery);
     bottom: 35px;
     font-size: 14px;
+  }
+
+
+  @media screen and (max-width: 768px){
+    .Main {
+        position: absolute; 
+        top: 0; 
+        left: 0; 
+        margin: 0; 
+        max-width: 0; 
+        transform: translateY(-50%);
+   }
+   
+   * {
+       padding: 0;
+       max-width: 24em;
+       margin: 0 auto;
+       margin-left: 0;
+       margin-right: 0;
+   }
+   
+    #Sobre .main-sobre {
+       max-width: 0;
+    }
+    .icon-menu .menu {
+        display: block;
+    }
+    #Início .cabeçalho-link {
+        display: none;
+      }
+    #Início .btn{
+        display: none;
+    }
+    #barra-menu{
+        height: 100vh;
+        z-index: 1;
+    }
+    .Main h5 {
+        font-size: 25px;
+        line-height: 3px;
+        top: 430px;
+    }
+
+    .Main h2 {
+        font-size: 30px;
+        position: absolute;
+        top: 430px;
+        left: 50px;
+        white-space: pre;
+    }
+
+    .Main h3 {
+        font-size: 30px;
+        bottom: -370px;
+        left: 60px;
+
+    }
+
+    .Container-btn form input:first-child{
+        
+        border: 2px solid #f9004d;
+        border-radius: 30px;
+        outline: none;
+        position: absolute;
+        left: 20px;
+        top: 405px;
+        width: 260px;
+        padding: 22px;
+    }
+
+    .Container-btn form input:last-child {
+        position: relative;
+        border: none;
+        padding: 11px 30px;
+        border-radius: 30px;
+        background-color: var(--color-primery);
+        color: var(--color-second);
+        box-shadow: 0px 0px 5px #000;
+        left: 208px;
+        top: 409px;
+    }
+
+    #Sobre h2 {
+        font-size: 60px;
+        position: relative;
+        right: 5px;
+    }
+
+    #Sobre p{
+        position: relative;
+        width: 80%;
+        top: 80px;
+        right: 0;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .download a {
+        position: absolute;
+        transform: none;
+        left: 80px;
+        top: 200%;
+        font-size: 12px;
+        scale: 80%;
+        height: 17px;
+        width: 80px;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .skills h6 {
+        position: relative;
+        left: 70%;
+        top: 200px;
+    }
+
+    .skills {
+        position: absolute;
+        transform: none;
+        left: -90px;
+        top: 100%;
+        scale: 35%;
+    }
+
+    .skills__container{
+        display: -webkit-box;
+        flex-wrap: initial;
+        gap: 19px;
+        left: -89%;
+        top: 400px;
+    }
+
+    #Projetos h2{
+        font-size: 80px;
+    }
+
+    footer h6 {
+        font-size: 90px;
+    }
+
+
   }
