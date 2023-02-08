@@ -185,8 +185,8 @@
 
   #barra-menu{
     background-color: #232323;
-    height: 100%;
-    width: 180px;
+    height: 100vh;
+    width: 0px;
     transition: 0.03s all;
   }
 
@@ -199,7 +199,7 @@
     color: var(--color-second);
     text-decoration: none;
     font-size: 15px;
-    width: 100%;
+    
   }
 
   #barra-menu ul li a:hover{
@@ -464,7 +464,7 @@ h5 {
   }
 
 
-  @media screen and (max-width: 768px){
+  @media screen and (max-width: 375px){
     .Main {
         position: absolute; 
         top: 0; 
@@ -479,7 +479,7 @@ h5 {
        max-width: 24em;
        margin: 0 auto;
        margin-left: 0;
-       margin-right: 0;
+       margin-right: -2px;
    }
    
     #Sobre .main-sobre {
