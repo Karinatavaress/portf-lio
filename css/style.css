@@ -559,14 +559,14 @@ footer h6 {
   }
   .Main h5 {
       font-size: 25px;
-      top: 445px;
+      top: 460px;
       left: 1%;
   }
 
   .Main h2 {
       font-size: 45px;
       position: absolute;
-      top: 430px;
+      top: 400px;
       left: 50px;
       white-space: pre;
   }
