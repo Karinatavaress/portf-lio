@@ -31,16 +31,6 @@
             <br>
             <br>
             <h5>Desenvolvedora Front-end</h5> 
-            <div class="Container-btn">
-                <br><br>
-                <form action="https://api.staticforms.xyz/submit" method="POST">
-                    <input type="email" nome="email" id="mail" placeholder="Envie seu Email">
-                    <input id="botao" type="submit" name="submit" value="Começar">
-                
-                    <input type="hidden" name="accessKey" value="22dc4146-b761-42c0-a736-2fc0e60383bf">
-                    <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/obrigado.html">
-                </form>
-            </div><!--Container-btn-->
         </div><!--Main-->
         
         <aside>
@@ -140,6 +130,27 @@
     <!--Rodapé--->
     <footer>
           <h6>Contato</h6>
+          <div class="Container-btn">
+            <br><br>
+            <form action="https://api.staticforms.xyz/submit" method="post">
+                    <!-- Replace with accesKey sent to your email -->
+                    <input type="hidden" name="accessKey" value="22dc4146-b761-42c0-a736-2fc0e60383bf"> <!-- Required -->
+                    <label>Nome</label>
+                    <input type="text" name="name" required> <!-- Optional -->
+                    <br>
+                    <label>E-mail</label>
+                    <input type="text" name="email" required> <!-- Optional -->
+                    <br>
+                    <label>Mensagem</label>
+                    <textarea name="message"></textarea> <!-- Optional -->
+                    
+                    <!-- If you want form to redirect to a specific url after submission -->
+                    <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/obrigado.html"> <!-- Optional -->
+                    <input type="submit" value="Submit" />
+                </form>
+        </div><!--Container-btn-->
+
+
         <div id="Contatos" class="Redes-sociais">
             <a href="https://mailto:karinasousatavares01@gmail.com"><i class="fa-solid fa-envelope"></i></a>
             <a href="https://www.linkedin.com/in/karina-tavares-07417a11b/"><i class="fa-brands fa-linkedin-in"></i></a>
@@ -148,8 +159,8 @@
         <p class="end">Desenvolvido por Karina Tavares</p>
     </footer>
     <script src="https://kit.fontawesome.com/bcdf3a4d9a.js" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="vanilla-tilt.js"></script>
-   <script>VanillaTilt.init(document.querySelectorAll(".Card"));</script>
+    
+    
    <script src="script.js"></script>
 </body>
 </html>
