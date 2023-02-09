@@ -521,7 +521,7 @@ footer h6 {
 }
 
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 900px){
 
 
   .Main {
@@ -573,7 +573,7 @@ footer h6 {
 
   .Main h3 {
       font-size: 45px;
-      top: 450px;
+      top: 460px;
       left: 50px;
   }
 
@@ -619,7 +619,7 @@ footer h6 {
       position: absolute;
       transform: none;
       left: 100px;
-      top: 200%;
+      top: 220%;
       font-size: 12px;
       scale: 80%;
       height: 17px;
