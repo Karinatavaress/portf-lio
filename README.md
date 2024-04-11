@@ -12,6 +12,6 @@
 
 • Sobre mim: Nessa seção tenho uma descrição dizendo um pouco sobre quem sou e a opção de Download do meu currículo;
 
-• Projetos: Apresento cards de projetos feitos com link direcionando para os códigos no GitHub;
+• Projetos: Apresento cards de projetos feitos.
 
-• Contato: Última seção com links para entrar em contato.
+• Contato: Última seção para entrar em contato.
